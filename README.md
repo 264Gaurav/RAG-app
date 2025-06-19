@@ -60,20 +60,20 @@ Ensure the following environment variables are set.
 
 1. create .env file and insert these important key-values in that:
 
-OPENAI_API_KEY=sk-your-openai-key-here
+   OPENAI_API_KEY=sk-your-openai-key-here
 
-GOOGLE_API_KEY=your-gemini-api-key
+   GOOGLE_API_KEY=your-gemini-api-key
 
 # add any other secrets below
 
-LANGSMITH_API_KEY=your-langsmith-key
+    LANGSMITH_API_KEY=your-langsmith-key
 
-LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
+    LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
 
-export LANGSMITH_TRACING=true
+    export LANGSMITH_TRACING=true
 
-export LANGSMITH_API_KEY=your-langsmith-key
+    export LANGSMITH_API_KEY=your-langsmith-key
 
 # (If you also use Ollama/OpenAI, set their keys as well)
 
-export OLLAMA_API_KEY="your_ollama_api_key"
+    export OLLAMA_API_KEY="your_ollama_api_key"
