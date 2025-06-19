@@ -54,9 +54,9 @@ python chatbot.py
 
 ---
 
-### Environment Variables
+# Environment Variables
 
-Ensure the following environment variables are set.
+## Ensure the following environment variables are set.
 
 1. create .env file and insert these important key-values in that:
 
@@ -64,7 +64,7 @@ Ensure the following environment variables are set.
 
    GOOGLE_API_KEY=your-gemini-api-key
 
-# add any other secrets below
+### add any other secrets below
 
     LANGSMITH_API_KEY=your-langsmith-key
 
@@ -74,6 +74,6 @@ Ensure the following environment variables are set.
 
     export LANGSMITH_API_KEY=your-langsmith-key
 
-# (If you also use Ollama/OpenAI, set their keys as well)
+### (If you also use Ollama/OpenAI, set their keys as well)
 
     export OLLAMA_API_KEY="your_ollama_api_key"
